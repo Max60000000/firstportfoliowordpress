@@ -1,0 +1,15 @@
+ECHO is on.
+# Ignore WordPress core files
+/wp-admin/
+/wp-includes/
+
+# Ignore uploads
+/wp-content/uploads/
+
+# Ignore wp-config.php (to exclude sensitive info)
+wp-config.php
+
+# Other exclusions
+/logs/
+/tmp/
+.htaccess
